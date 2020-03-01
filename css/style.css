@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft yahei", "黑体", Arial;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #2A4480;
+}
+
+/* 网站顶端设计样式 */
+header {
+    width: 100%;
+    height: 180px;
+    background-color: #4671D5;
+    z-index: -1;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.blogimg {
+    margin-top: 10px;
+    float: left;
+}
+
+.blogimg>img {
+    position: relative;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.blogname {
+    float: right;
+    margin-right: 40px;
+}
+
+.blogname h1 {
+    color: white;
+    font-size: 3em;
+    line-height: 180px;
+}
+
+/* 导航样式 */
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: #eee;
+    text-align: center;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 90px;
+
+}
+
+nav ul li a {
+    line-height: 60px;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    padding: 18px;
+    background-color: #2A4480;
+    color: #fff;
+}
+
+/*主要区域样式*/
+main {
+    width: 100%;
+    min-height: 500px;
+    margin-top: 20px;
+}
+
+.left {
+    display: block;
+    float: left;
+    width: 640px;
+}
+
+.right {
+    display: block;
+    float: right;
+    width: 280px;
+}
+
+h1 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #2A4480;
+    font-size: 24px;
+    font-weight: 400;
+    border-bottom: 2px solid #eee;
+}
+
+/* 最新文章 */
+.article {
+    display: block;
+    width: 100%;
+    min-height: 210px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F7F7F7;
+}
+
+.articlepic {
+    display: block;
+    float: left;
+    width: 200px;
+}
+
+.articdetail {
+    display: block;
+    float: right;
+    width: 380px;
+    margin: 20px auto;
+}
+
+.articdetail h2 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.articdetail p {
+    margin: 10px 0 10px;
+    color: #999;
+    text-indent: 2em;
+    line-height: 1.2em;
+    text-align: justify;
+}
+
+.articdetail strong,
+.articdetail a {
+    font-size: 0.875em;
+}
+
+.articdetail a {
+    font-weight: normal;
+}
+
+.articdetail em {
+    float: right;
+    font-weight: normal;
+}
+
+.right ul{
+	list-style-type: none;
+}
+.right ul li {
+    display: block;
+    width: 100%;
+    margin: 1em;
+    padding: 0.25em 1.5em;
+    background-image: url(../images/bullet.png);
+    background-repeat: no-repeat;
+    background-position: left .5em;	    
+    border-bottom: 1px dashed #eee;
+}
+
+/* 网站底部版权样式 */
+footer {
+    clear: both;
+    width: 100%;
+    height: 120px;
+    margin: 40px auto;
+    margin-bottom: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+footer p {
+    color: #eee;
+    line-height: 30px;
+    font-size: 0.875em;
+}
+
+footer .copyright {
+    padding-top: 30px;
+}
