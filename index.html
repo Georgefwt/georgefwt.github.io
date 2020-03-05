@@ -3,108 +3,80 @@
 <head>
 	<meta charset="UTF-8">
 	<title>个人博客首页</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-	<header>
+	<header style="background-image: url(images/lowpoly.png);">
 		<div class="container">
 			<div class="blogimg">
-				<img src="images/blog.png" alt="MY BLOG">
+				<img src="images/blog.png" alt="">
 			</div>
 			<div class="blogname">
-				<h1>博客云</h1>
+				<h1>MY BLOG</h1>
 			</div>			
 		</div>
 
 	</header>
 	<nav>
-		<div class="container">
-			<ul>
-				<li><a href="">链接1</a></li>
-				<li><a href="">链接2</a></li>
-				<li><a href="">链接3</a></li>
-				<li><a href="">链接4</a></li>
-				<li><a href="">链接5</a></li>
-			</ul>			
-		</div>
-
+		<ul class="nav justify-content-center">
+		  <li class="nav-item">
+		    <a class="nav-link active" href="#">Link</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="#">Link</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="#">Link</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link disabled" href="#">Link</a>
+		  </li>
+		</ul>
 	</nav>
 	<main>
+		<div style="height: 20px"></div>
 		<div class="container">
-			<div class="left">
+			<div class="row">
+    			<div class="col-8">
 				<h1>最新文章</h1>
-				<div class="article">
-					<a href="artical_1.md">
-					<div class="articlepic">
-						<img src="images/no-image.jpg" alt="">
+					<div class="myarticle">
+						<div class="articlepic">
+							<img src="images/no-image.jpg" alt="">
+						</div>
+						<div class="articdetail">
+							<h2>文章标题</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deserunt quae expedita, voluptates nostrum provident sunt repellat nobis, dolorem quibusdam dolorum nulla maiores doloremque dicta at voluptate, eius eaque distinctio.</p>
+							<strong>分类:<a href="#">分类名称</a><em>发布日期:2019-3-15</em></strong>
+						</div>
 					</div>
-					<div class="articdetail">
-						<h2>文章标题</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deserunt quae expedita, voluptates nostrum provident sunt repellat nobis, dolorem quibusdam dolorum nulla maiores doloremque dicta at voluptate, eius eaque distinctio.</p>
-						<strong>分类:<a href="#">分类名称</a><em>发布日期:2019-3-15</em></strong>
+					<div class="myarticle">
+						<div class="articlepic">
+							<img src="images/no-image.jpg" alt="">
+						</div>
+						<div class="articdetail">
+							<h2>文章标题</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum voluptatem consequuntur sed qui animi assumenda repellendus eveniet pariatur deserunt quibusdam ullam, voluptate obcaecati dolores a modi, earum nam eum dolorem.</p>
+							<strong>分类:<a href="">分类名称</a><em>发布日期:2019-3-15</em></strong>
+						</div>
 					</div>
-					</a>
-				</div>
-				<div class="article">
-					<div class="articlepic">
-						<img src="images/no-image.jpg" alt="">
-					</div>
-					<div class="articdetail">
-						<h2>文章标题</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum voluptatem consequuntur sed qui animi assumenda repellendus eveniet pariatur deserunt quibusdam ullam, voluptate obcaecati dolores a modi, earum nam eum dolorem.</p>
-						<strong>分类:<a href="">分类名称</a><em>发布日期:2019-3-15</em></strong>
-					</div>
-				</div>
-				<div class="article">
-					<div class="articlepic">
-						<img src="images/no-image.jpg" alt="">
-					</div>
-					<div class="articdetail">
-						<h2>文章标题</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos totam culpa, deleniti aspernatur illo ea a consequatur necessitatibus. Provident distinctio eaque dolorum commodi odit modi, fugit corporis optio maxime at.</p>
-						<strong>分类:<a href="">分类名称</a><em>发布日期:2019-3-15</em></strong>
-					</div>
-				</div>
-				<div class="article">
-					<div class="articlepic">
-						<img src="images/no-image.jpg" alt="">
-					</div>
-					<div class="articdetail">
-						<h2>文章标题</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias quibusdam blanditiis placeat delectus assumenda in quis repellendus autem vitae sed doloremque, deserunt earum id excepturi porro adipisci, voluptatibus. Nihil, doloremque!</p>
-						<strong>分类:<a href="">分类名称</a><em>发布日期:2019-3-15</em></strong>
-					</div>
-				</div>
-				<div class="article">
-					<div class="articlepic">
-						<img src="images/no-image.jpg" alt="">
-					</div>
-					<div class="articdetail">
-						<h2>文章标题</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque temporibus facilis quod illum saepe accusantium, veritatis magnam, harum alias, voluptate quisquam soluta. Suscipit incidunt harum explicabo placeat reiciendis. Eos, officiis.</p>
-						<strong>分类:<a href="">分类名称</a><em>发布日期:2019-3-15</em></strong>
-					</div>
-				</div>
-			</div>
-			<div class="right">
-				<h1>网站分类</h1>
-				<ul>
-					<li><a href="">分类1</a></li>
-					<li><a href="">分类2</a></li>
-					<li><a href="">分类3</a></li>
-					<li><a href="">分类4</a></li>
-					<li><a href="">分类5</a></li>
-					<li><a href="">分类6</a></li>
-					<li><a href="">分类7</a></li>
-					<li><a href="">分类8</a></li>
-				</ul>
-			</div>			
-		</div>
-
+    			</div>
+    			<div class="col-4">
+					<div class="right">
+						<h1>文章分类</h1>
+						<ul>
+							<li><a href="">暂无</a></li>
+						</ul>
+					</div>	
+    			</div>
+  			</div>
 	</main>
 	<footer>
 		<p class="copyright">&copy; Georgefwt,ALL Rights Reserved.</p>
-		<p>愿与大家共同打造属于自己的个人博</p>
+		<p>2020 03 05</p>
 	</footer>
 </body>
 </html>
