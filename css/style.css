@@ -164,11 +164,16 @@ h1 {
 footer {
     clear: both;
     width: 100%;
-    height: 120px;
+    height: 200px;
     margin: 40px auto;
     margin-bottom: 0;
     background-color: #333;
     text-align: center;
+}
+
+footer span{
+    color: #eee;
+    line-height: 30px;
 }
 
 footer p {
