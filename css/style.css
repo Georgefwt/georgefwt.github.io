@@ -100,9 +100,9 @@ h1 {
 .myarticle {
     display: block;
     width: 100%;
-    min-height: 250px;
-    margin: 20px auto;
-    padding: 20px;
+    min-height: 300px;
+    margin: 10px auto;
+    padding: 10px;
     background-color: #F7F7F7;
     border-radius: 10px;
 }
@@ -116,7 +116,7 @@ h1 {
 .articdetail {
     display: block;
     float: right;
-    width: 380px;
+    width: 350px;
     margin: 20px auto;
 }
 
@@ -128,7 +128,6 @@ h1 {
 .articdetail p {
     margin: 10px 0 10px;
     color: #999;
-    text-indent: 2em;
     line-height: 1.2em;
     text-align: justify;
 }
